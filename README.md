@@ -41,3 +41,14 @@ PATH_X_TRAIN = "YOUR_PATH_HERE/Silica_Prediction_X_Train_Biotite.txt"
 PATH_Y_TRAIN = "YOUR_PATH_HERE/Silica_Prediction_Y_Train_WholeRock.txt"
 PATH_GROUP   = "YOUR_PATH_HERE/Silica_Prediction_Group_Label_Train.txt"
 PATH_X_NEW   = "YOUR_PATH_HERE/Silica_Prediction_New_Biotite.txt"
+
+## Environment Dependencies
+
+To ensure full reproducibility of our results, the scripts were developed and tested in the following environment. We highly recommend using these specific library versions, as different versions of `scikit-learn` or `xgboost` may lead to minor numerical variations.
+
+*   **Python:** 3.13.5
+*   **xgboost:** 3.1.3
+*   **scikit-learn:** 1.8.0 (for Random Forest and SVR)
+*   **numpy:** 2.4.1
+*   **pandas:** 2.3.3
+*   **bayesian-optimization:** 3.2.0
