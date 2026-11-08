@@ -37,10 +37,10 @@ Format your data into `.txt` files as described in the "Data Format Requirements
 **(2) Configure file paths**
 Open the desired script (e.g., `XGB_SiO2.py`) and locate the **INPUT PATHS** section at the top. Replace the placeholders with the actual paths to your local files:
 ```python
-PATH_X_TRAIN = "YOUR_PATH_HERE/Silica_Prediction_X_Train_Biotite.txt"
-PATH_Y_TRAIN = "YOUR_PATH_HERE/Silica_Prediction_Y_Train_WholeRock.txt"
-PATH_GROUP   = "YOUR_PATH_HERE/Silica_Prediction_Group_Label_Train.txt"
-PATH_X_NEW   = "YOUR_PATH_HERE/Silica_Prediction_New_Biotite.txt"
+*   PATH_X_TRAIN = "YOUR_PATH_HERE/Silica_Prediction_X_Train_Biotite.txt"
+*   PATH_Y_TRAIN = "YOUR_PATH_HERE/Silica_Prediction_Y_Train_WholeRock.txt"
+*   PATH_GROUP   = "YOUR_PATH_HERE/Silica_Prediction_Group_Label_Train.txt"
+*   PATH_X_NEW   = "YOUR_PATH_HERE/Silica_Prediction_New_Biotite.txt"
 
 ## Environment Dependencies
 
